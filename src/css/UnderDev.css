@@ -1,0 +1,35 @@
+.underdev-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+
+.spinner {
+  border: 8px solid #ff1515;
+  border-top: 8px solid #007bff00;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.underdev-container p {
+    font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 7px 4px rgba(0, 0, 0, 0.4);
+  color: #00000085;
+}
+
+
+

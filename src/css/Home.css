@@ -1,0 +1,45 @@
+/* Ensures background covers full height if needed */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.home-container {
+  padding-top: 100px; /* Pushes content below the navbar (adjust as needed) */
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Center the name */
+.home-name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Optional: Bio centered too */
+.home-bio {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section spacing */
+.home-section {
+  margin: 40px 0;
+  text-align: left;
+}
+
+/* Image styling */
+.home-project-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}

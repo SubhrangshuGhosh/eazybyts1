@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eazybyts1/static/css/main.bdf494af.css",
+    "main.js": "/eazybyts1/static/js/main.fc6456ea.js",
+    "index.html": "/eazybyts1/index.html",
+    "main.bdf494af.css.map": "/eazybyts1/static/css/main.bdf494af.css.map",
+    "main.fc6456ea.js.map": "/eazybyts1/static/js/main.fc6456ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdf494af.css",
+    "static/js/main.fc6456ea.js"
+  ]
+}
